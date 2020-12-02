@@ -1,0 +1,520 @@
+/** 
+Template Name: TASKIA - HTML Template
+Template URL: http://coderitsoltion.com
+Author: Coder IT Solution
+Author URI: http://coderitsoltion.com
+Description:TASKIA HTML Template
+Keywords: html,css,js
+
+**/
+
+	/*font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Mulish', sans-serif;
+
+    font-family: 'Poppins', sans-serif;*/
+
+ 	  /************************/
+	 /******* Main CSS *******/
+	/************************/
+
+html{
+	font-size: 62.5%;
+}
+body{
+	overflow-x:hidden; 
+	font-family: 'Poppins', sans-serif;
+	background: url(../images/banner/body-bnr.jpg) no-repeat scroll 0 0 / 100% 100%;
+}
+ul{
+ 	list-style:none;
+ 	padding: 0;
+ 	margin: 0;
+}
+a{
+ 	text-decoration: none;
+ 	display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+ 	margin: 0px;
+}
+.owl-dot:focus {
+	outline: none !important;
+}
+
+
+	  /************************/
+	 /****** Default CSS *****/
+	/************************/
+
+.btn-sty-1 {
+	font-size: 20px;
+	font-size: 2rem;
+	font-weight: 700;
+	color: #525FFB;
+	padding: 5px 15px;
+	padding: .5rem 1.5rem;
+	border: 1px solid #525FFB;
+	border-radius: 25px;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+.btn-sty-1:hover{
+	background: #525FFB;
+	color:#fff;
+}
+.btn-sty-2 {
+	color: #1E1C24;
+	opacity: 36%;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=NaN)";
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	padding: 10px 30px;
+	padding: 1rem 3rem;
+	border: 1px solid #1E1C24;
+	border-radius: 25px;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+.btn-sty-2:hover{
+	background:#525FFB;
+	color:#fff;
+	border: 1px solid #525FFB;
+	opacity: 100%;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=NaN)"; 
+}
+.btn-sty-3 {
+	color: #FFFFFF;
+	background: #525FFB;
+	font-size: 14px;
+	font-size: 1.4rem;
+	padding: 10px 30px;
+	padding: 1rem 3rem;
+	border-radius: 25px;
+	font-weight: 600;
+	border: 1px solid transparent;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+.btn-sty-3:hover{
+	background: #fff;
+	color:#525FFB;
+	border: 1px solid #525FFB;
+}
+	  /*******************************/
+	 /****** 1.Header Css Start *****/
+	/*******************************/
+
+.header-area{
+	padding-top: 50px;
+	padding-top: 5rem;
+}
+
+
+.header-logo a {
+	font-weight: 800;
+	font-size: 47px;
+	font-size: 4.7rem;
+	color: #525FFB;
+}
+
+.header-btn {
+	text-align: end;
+}
+
+	  /*******************************/
+	 /****** 1.Header Css Start *****/
+	/*******************************/
+
+
+
+	  /*******************************/
+	 /****** 2.Banner Css Start *****/
+	/*******************************/
+.banner-content h2 {
+	color: #1E1C24;
+	font-size: 50px;
+	font-size: 5rem;
+	font-weight: 900;
+	padding-top: 160px;
+	padding-top: 16rem;
+}
+
+.banner-content p {
+	font-size: 20px;
+	font-size: 2rem;
+	font-weight: 700;
+	font-family: 'Mulish', sans-serif;
+	color: #B1AAAA;
+	padding: 20px 0 30px 0;
+	padding: 2rem 0 3rem 0;
+}
+.banner-btn ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.banner-btn ul li {
+	margin-right: 20px;
+	margin-right: 2rem;
+}
+
+.banner-img{
+	width: 100%;
+	height: auto;
+}
+
+.banner-img img{
+	width: 100%;
+	height: 100%;
+}
+	  /*******************************/
+	 /****** 2.Banner Css End   *****/
+	/*******************************/
+
+
+
+
+	  /*******************************/
+	 /****** 3.Service Css Start ****/
+	/*******************************/
+.service-title h2 {
+	color: #1E1C24;
+	font-size: 40px;
+	font-size: 4rem;
+	font-weight: 700;
+}
+.service-title {
+	padding: 200px 0px 70px 0;
+	padding: 20rem 0rem 7rem 0;
+	text-align: center;
+}
+.sercive-area .container {
+	max-width: 75% !important;
+}
+.service-img {
+	width: 100%;
+	height: auto;
+}
+.service-img img{
+	width: 100%;
+	height: 100%;
+}
+.service-item-1 {
+	background: #525FFB;
+	padding: 20px;
+	padding: 2rem;
+	border-radius: 5px;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+.service-item-1:hover{
+	-webkit-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+.service-item-2:hover{
+	-webkit-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+.service-item-3:hover{
+	-webkit-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+.service-item-1 h2 {
+	color: #FFFFFF;
+	font-size: 30px;
+	font-size: 3rem;
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+}
+.service-item-1 p {
+	color: #fff;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: 700;
+	font-family: 'Mulish', sans-serif;
+	text-align: center;
+	padding: 20px 0 10px 0;
+	padding: 2rem 0 1rem 0;
+}
+
+.service-item-2 {
+	background: #E9F0FF;
+	padding: 20px;
+	padding: 2rem;
+	border-radius: 5px;
+	-webkit-transform: translateY(80px);
+	        transform: translateY(80px);
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+.service-item-2 h2 {
+	color: #1E1C24;
+	font-size: 30px;
+	font-size: 3rem;
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+}
+.service-item-2 p {
+	color:#1E1C24;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: 700;
+	font-family: 'Mulish', sans-serif;
+	text-align: center;
+	padding: 20px 0 10px 0;
+	padding: 2rem 0 1rem 0;
+}
+.service-item-3 {
+	background: #FFE7AA;
+	padding: 20px;
+	padding: 2rem;
+	border-radius: 5px;
+	-webkit-transform: translateY(40px);
+	        transform: translateY(40px);
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+.service-item-3 h2 {
+	color: #1E1C24;
+	font-size: 30px;
+	font-size: 3rem;
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+}
+.service-item-3 p {
+	color:#1E1C24;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: 700;
+	font-family: 'Mulish', sans-serif;
+	text-align: center;
+	padding: 20px 0 10px 0;
+	padding: 2rem 0 1rem 0;
+}
+.sercive-area .col-md-4 {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 auto;
+	        flex: 0 0 auto;
+	width: 30.333%;
+	margin: 0 auto;
+}
+
+	  /*******************************/
+	 /****** 3.Service Css End ******/
+	/*******************************/
+
+
+
+	  /*****************************/
+	 /****** 4.Tab Css Strat ******/
+	/*****************************/
+.tab-area {
+	padding: 250px 0 150px 0;
+	padding: 25rem 0 15rem 0;
+}
+.tab-left{
+	width: 100%;
+	height: auto;
+}
+.tab-left img{
+	width: 100%;
+	height: 100%;
+}
+.footer-content h2,
+.tab-right h2 {
+	color: #1E1C24;
+	font-size: 40px;
+	font-size: 4rem;
+	font-weight: 700;
+}
+
+.tab-right p {
+	color: #B1AAAA;
+	font-size: 15px;
+	font-size: 1.5rem;
+	padding: 40px 0;
+	padding: 4rem 0;
+	font-weight: 700;
+	font-family: 'Mulish', sans-serif;
+}
+
+	  /***************************/
+	 /****** 4.Tab Css End ******/
+	/***************************/
+
+
+
+	  /*******************************/
+	 /****** 5.Work Area Start ******/
+	/*******************************/
+
+.work-area{
+	padding: 50px 0;
+	padding: 5rem 0;
+}
+.work-left {
+	padding: 0 30px 0 100px;
+	padding: 0 3rem 0 10rem;
+}
+.team-title h2,
+.work-left h2 {
+	color: #1E1C24;
+	font-size: 40px;
+	font-size: 4rem;
+	font-weight: 700;
+}
+.work-left p {
+	color: #B1AAAA;
+	font-size: 15px;
+	font-size: 1.5rem;
+	padding: 40px 0;
+	padding: 4rem 0;
+	font-weight: 700;
+	font-family: 'Mulish', sans-serif;
+}
+.work-right-img{
+	width: 100%;
+	height: auto;
+}
+
+.work-right-img img{
+	width: 100%;
+	height: 100%;
+}
+	  /*****************************/
+	 /****** 5.Work Area End ******/
+	/*****************************/
+
+
+	  /*****************************/
+	 /***** 6.Team  Area Start ****/
+	/*****************************/
+.team-area {
+	padding: 80px 0;
+	padding: 8rem 0;
+}
+.team-title {
+	text-align: center;
+	padding-top: 30px;
+	padding-top: 3rem;
+}
+
+.team-left{
+	position: relative;
+	padding-top: 50px;
+	padding-top: 5rem;
+	height: 350px;
+}
+.team-middle h2 {
+	color: #525FFB;
+	font-size: 100px;
+	font-size: 10rem;
+	font-weight: 800;
+	text-align: center;
+}
+
+.team-left .pik-1 {
+	width: 70px;
+	height: auto;
+}
+.team-left .pik-6 img,
+.team-left .pik-5 img,
+.team-left .pik-4 img,
+.team-left .pik-3 img,
+.team-left .pik-2 img,
+.team-left .pik-1 img{
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+}
+
+.team-left .pik-2 {
+	width: 50px;
+	height: auto;
+	position: absolute;
+	left: 20%;
+	top:50%;
+}
+
+.team-left .pik-3 {
+	width: 40px;
+	height: auto;
+	bottom: 0;
+	position: absolute;
+}
+
+.team-left .pik-4 {
+	width: 40px;
+	height: auto;
+	right: 0%;
+	position: absolute;
+	top: 24%;
+}
+.team-left .pik-5 {
+	width: 50px;
+	height: auto;
+	position: absolute;
+	right: 20%;
+	top: 50%;
+}
+.team-left .pik-6 {
+	width: 70px;
+	height: auto;
+	right: 0;
+	position: absolute;
+	bottom: 0;
+}
+	  /*****************************/
+	 /****** 6.Team Area End ******/
+	/*****************************/
+
+
+
+
+	  /*********************************/
+	 /****** 7.Footer Area Start ******/
+	/*********************************/
+.footer-area{
+	padding: 80px 0;
+	padding: 8rem 0;
+}
+.footer-content {
+	text-align: center;
+}
+.footer-content p {
+	color: #1E1C24;
+	font-size: 25px;
+	font-size: 2.5rem;
+	width: 40%;
+	margin: 0 auto;
+	font-weight: 300;
+	font-family: 'Mulish', sans-serif;
+	padding: 10px 0 30px 0;
+	padding: 1rem 0 3rem 0;
+}
+.footer-btn ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.footer-btn ul li {
+	margin: 0 10px;
+	margin: 0 1rem;
+}
+	  /*******************************/
+	 /****** 7.Footer Area End ******/
+	/*******************************/
+
+
+

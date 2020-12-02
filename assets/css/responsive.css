@@ -1,0 +1,142 @@
+@media all and (max-width: 991px){
+	.banner-content h2 {
+		font-size: 3rem;
+		padding-top: 10rem;
+	}
+	.banner-img {
+		padding-top: 3rem;
+	}
+	.sercive-area .container {
+		max-width: 95% !important;
+	}
+	.service-item-1 h2,
+	.service-item-2 h2,
+	.service-item-3 h2 {
+		font-size: 2rem;
+	}
+	.footer-content h2, .tab-right h2 {
+		font-size: 2rem;
+	}
+	.work-left {
+		padding: 0 1rem 0 0rem;
+	}
+	.team-title h2, .work-left h2 {
+		font-size: 2.4rem;
+	}
+	.team-middle h2 {
+		font-size: 5rem;
+		padding-top: 5rem;
+	}
+
+}
+
+
+
+@media all and (max-width: 767px){
+	.header-area {
+		padding-top: 2rem;
+	}
+	.banner-content h2 {
+		padding-top: 5rem;
+	}
+	.banner-content p {
+		padding: 2rem 0 2rem 0;
+	}
+	.row.gx-5 {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.sercive-area .col-md-4 {
+		width: 80.333%;
+	}
+	.service-item-1 {
+		margin-bottom: 3rem;
+	}
+	.service-item-2 {
+		-webkit-transform: translateY(0px);
+		        transform: translateY(0px);
+		margin-bottom: 3rem;
+	}
+	.service-item-3 {
+		-webkit-transform: translateY(0px);
+		        transform: translateY(0px);
+	}
+	.service-title {
+		padding: 5rem 0rem 4rem 0;
+		text-align: center;
+	}
+	.service-title h2 {
+		font-size: 3rem;
+	}
+	.sercive-area .g-5, .gx-5 {
+	 --bs-gutter-x: 1rem; 
+	}
+	.tab-area {
+		padding: 5rem 0 5rem 0;
+	}
+	.tab-left {
+		margin-bottom: 3rem;
+	}
+	.footer-content h2, .tab-right h2 {
+		font-size: 2.4rem;
+	}
+	.tab-right p {
+		padding: 2rem 0;
+	}
+	.footer-content p {
+		width: 90%;
+	}
+	.footer-area {
+		padding: 5rem 0;
+	}
+	.team-area {
+		padding: 0rem 0;
+	}
+}
+
+
+@media all and (max-width: 576px){
+	.footer-btn ul {
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.banner-btn ul {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		            -ms-grid-row-align: center;
+		        align-items: center;
+	}
+	.banner-btn ul li {
+		margin: 0 0 1rem 0;
+	}
+	.banner-content h2 {
+		padding-top: 2rem;
+	}
+	.sercive-area .col-md-4 {
+		width: 94%;
+	}
+	.sercive-area .container {
+		max-width: 100% !important;
+	}
+	.work-area {
+		padding: 0rem 0; 
+	}
+	.team-middle h2 {
+		font-size: 2rem;
+		padding-top: 6rem;
+	}
+	.footer-btn ul li {
+		margin: 0 0 1rem 0;
+	}
+}
